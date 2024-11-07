@@ -18,7 +18,7 @@ CREATE TABLE products (
     product_weight_g FLOAT,                    -- Weight of the product
     product_length_cm FLOAT,                   -- Length of the product 
     product_height_cm FLOAT,                   -- Height of the product
-    product_width_cm FLOAT                     -- Width of the product in centimeters
+    product_width_cm FLOAT                     -- Width of the product 
 );
 DROP TABLE IF EXISTS orders;
 CREATE TABLE orders (
